@@ -406,14 +406,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../JUCE/modules",
-					"$(SRCROOT)/..\..\..\libltc\src",
+					"$(SRCROOT)/../../../libltc/src",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info-App.plist;
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../JUCE/modules $(SRCROOT)/..\..\..\libltc\src";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../JUCE/modules $(SRCROOT)/../../../libltc/src";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.LtcTest;
 				PRODUCT_NAME = "LtcTest";
 				USE_HEADERMAP = NO;
@@ -564,7 +564,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../JUCE/modules",
-					"$(SRCROOT)/..\..\..\libltc\src",
+					"$(SRCROOT)/../../../libltc/src",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info-App.plist;
@@ -572,7 +572,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../JUCE/modules $(SRCROOT)/..\..\..\libltc\src";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../JUCE/modules $(SRCROOT)/../../../libltc/src";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.LtcTest;
 				PRODUCT_NAME = "LtcTest";
 				USE_HEADERMAP = NO;

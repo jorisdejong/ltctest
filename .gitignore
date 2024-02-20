@@ -32,3 +32,8 @@
 *.app
 
 .vs
+
+.DS_Store
+*.xcworkspacedata
+xcuserdata
+

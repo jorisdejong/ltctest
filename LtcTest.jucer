@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="QTAANw" name="LtcTest" projectType="guiapp" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1" headerPath="..\..\..\libltc\src">
+              addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1" headerPath="../../../libltc/src">
   <MAINGROUP id="UdoHFj" name="LtcTest">
     <GROUP id="{D51F4923-B25E-E164-9B5A-37D3C628DAEF}" name="Source">
       <GROUP id="{07D1E7D7-2BEE-DA1A-9DCE-0AA42F8758AB}" name="libltc">
