@@ -17,6 +17,7 @@ LTCReader::LTCReader()
 
 LTCReader::~LTCReader()
 {
+	ltc_decoder_free( decoder );
 }
 
 void LTCReader::processAudio( const float* inBuffer, const size_t length )
