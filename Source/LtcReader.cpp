@@ -36,6 +36,8 @@ void LTCReader::processAudio( const float* inBuffer, const size_t length )
 		ltc_frame_to_time( &stime, &frame.ltc, 1 );
 		listeners.call( &Listener::newFrameReceived );
 	}
+
+	delete bytes;
 }
 
 int LTCReader::getCurrentFrame()
