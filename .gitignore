@@ -32,8 +32,8 @@
 *.app
 
 .vs
+x64
 
 .DS_Store
 *.xcworkspacedata
 xcuserdata
-

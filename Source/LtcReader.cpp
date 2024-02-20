@@ -21,7 +21,11 @@ LTCReader::~LTCReader()
 
 void LTCReader::processAudio( const float* inBuffer, const size_t length )
 {
+	if ( !inBuffer )
+		return;
+
 	unsigned char* bytes = new unsigned char[ length ];
+
 	for ( int i = 0; i < length; i++ )
 		bytes[ i ] = static_cast< unsigned char > ( ( ( inBuffer[ i ] / 2.0f ) + 0.5f ) * 255 );
 
